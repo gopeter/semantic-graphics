@@ -67,7 +67,7 @@ SG.prototype = {
 
       lunar.addClass($el[0], 'active');
       lunar.addClass(document.querySelector('svg'), 'active');            
-      $('td[data-content="' + context + '"]').addClass('active');
+      $('td[data-context="' + context + '"]').addClass('active');
       
     } else if (el.type == 'mouseleave') {
       
