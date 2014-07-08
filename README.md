@@ -29,6 +29,6 @@ Be aware: Just a proof of concept. No validations, no exception handling, no tes
 
 ## Credits
 
-- `truck.svg`:
+- `Truck.svg`:
     - **Original image:** [http://commons.wikimedia.org/wiki/File%3AConventional_18-wheeler_truck_diagram.svg](http://commons.wikimedia.org/wiki/File%3AConventional_18-wheeler_truck_diagram.svg)
     - **Attribution:** By Conventional_18-wheeler_truck_diagram.PNG: H Padleckas derivative work: Ju gatsu mikka (^o^) appelez moi Ju (^o^) (Conventional_18-wheeler_truck_diagram.PNG) [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
