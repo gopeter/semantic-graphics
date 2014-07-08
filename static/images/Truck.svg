@@ -58,7 +58,7 @@
 	</g>
 </g>
 <g id="Trailer" class="root" rel="ex:contains" resource="http://example.com/Trailer">
-	<g id="Tires" class="interactive" property="ex:contains" src="http://semantic-graphics.herokuapp.com/svg/mudguard.svg">
+	<g id="Tires" class="interactive" property="ex:contains" src="http://semantic-graphics.herokuapp.com/svg/TruckMudguardSet.svg">
 		<path id="p012" fill="#D8D8D8" stroke="#6FB7FF" stroke-width="3" d="M343,119h8v-14h-28v14h8l15-12h-18L343,119z"/>
 		<g id="u016">
 			<g id="g00e_3_">
