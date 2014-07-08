@@ -1,0 +1,115 @@
+/****************************
+ * General
+ ***************************/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	color: #454545;	
+  background-color: #fefefe;	
+  font-size: 12px;
+}
+
+a {
+  color: #454545;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#credits {
+  margin: 10px 0 0 0;
+  display: none;
+}
+
+#credits h3 {
+  margin: 0 0 5px 0;
+}
+
+#credits ul {
+  margin: 0 0 0 16px;
+}
+
+/****************************
+ * Wrapper/Container
+ ***************************/
+
+header {
+	margin: 0 0 30px 0;
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#wrapper {
+	padding: 60px;
+}
+
+section {
+  float: left;
+  margin: 0 30px 30px 0;
+  padding: 0 30px 30px 30px;
+  border-left: 1px solid #ccc;
+  min-height: 400px;
+}
+
+section:first-of-type {
+  border-left: none;
+  padding-left: 0px;
+}
+
+section h3 {
+  margin: 0 0 10px 0;
+}
+
+/****************************
+ * Content
+ ***************************/
+
+button {
+	display: inline-block;
+	padding: 5px;
+	background-color: #ccc;
+	margin: 10px 5px 0 0;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+/****************************
+ * Responsive
+ ***************************/
+
+@media only screen and (max-width: 1440px) {
+
+  section {
+    float: none;
+    min-height: inherit;
+    border-left: none;
+    border-top: 1px solid #ccc;
+    padding: 30px 0 30px 0;
+  }
+  
+  section:first-of-type {
+    border-top: none;
+    padding-top: 0px;
+  }
+  
+}

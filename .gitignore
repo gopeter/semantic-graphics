@@ -52,3 +52,12 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# PhpStorm files
+.idea
+
+# DS_Store
+.DS_Store
+
+# VENV
+venv
+*.pyc
