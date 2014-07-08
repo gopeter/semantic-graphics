@@ -20,7 +20,7 @@ def queryData():
 
   g = Graph()
   if not p_filename:
-    g.parse('static/images/truck.svg', format = 'rdfa')
+    g.parse('static/images/Truck.svg', format = 'rdfa')
   else:
     g.parse('static/images/' + p_filename, format = 'rdfa')  
 
