@@ -8,6 +8,7 @@
   <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
   <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/lunar.min.js') }}"></script>      
+  <script src="{{ url_for('static', filename='js/snap.svg-min.js') }}"></script>        
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </head>
 <body>
@@ -21,7 +22,7 @@
       <h2>Read data from semantic SVG files with SPARQL</h2>
       <button id="credits-toggle">Image credits</button>
       <div id="credits">
-        <h3><a href="http://semantic-graphics.herokuapp.com/static/images/truck.svg">truck.svg</a></h3>
+        <h3><a href="http://semantic-graphics.herokuapp.com/static/images/Truck.svg">Truck.svg</a></h3>
         <ul>
           <li><strong>Original image:</strong> <a href="http://commons.wikimedia.org/wiki/File%3AConventional_18-wheeler_truck_diagram.svg">http://commons.wikimedia.org/wiki/File%3AConventional_18-wheeler_truck_diagram.svg</a></li>
           <li><strong>Attribution:</strong> By Conventional_18-wheeler_truck_diagram.PNG: H Padleckas derivative work: Ju gatsu mikka (^o^) appelez moi Ju (^o^) (Conventional_18-wheeler_truck_diagram.PNG) <a href="http://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA-3.0</a>, via Wikimedia Commons
@@ -30,19 +31,20 @@
 
     <section id="step1">
       <h3>Step 1: Parse first SVG file</h3>
+      <strong>The tires of the trailer contain more information. Click it!</strong>
       <div id="graphic1"></div>
-      <button id="parse1">Parse SVG</button>
+      <button class="parse" data-i="1">Parse SVG</button>
       <div id="results1">
         <h4>Results</h4>
-        <p>Move your mouse over subjects, objects (&darr;) or graphic elements (&uarr;).<br /><strong>The tires of the trailer contain more informations. Click it!</strong></p>
+        <p>Move your mouse over subjects, objects (&darr;) or graphic elements (&uarr;).</p>
         <table cellpadding="0" cellspacing="0"></table>
       </div>
     </section>
     
     <section id="step2">
-      <h3>Step 1: Parse second SVG file</h3>
+      <h3>Step 2: Parse second SVG file</h3>
       <div id="graphic2"></div>
-      <button id="parse2">Parse SVG</button>
+      <button class="parse" data-i="2">Parse SVG (could take a while!)</button>
       <div id="results2">
         <h4>Results</h4>        
         <table cellpadding="0" cellspacing="0"></table>        

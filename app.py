@@ -13,11 +13,16 @@ app = Flask(__name__)
 # Query SVG
 ################################################################################
 
-@app.route('/query1', methods = ['GET'])
+@app.route('/query', methods = ['POST'])
 def queryData():
 
+  p_filename = request.form['filename']
+
   g = Graph()
-  g.parse('static/images/truck.svg', format = 'rdfa')
+  if not p_filename:
+    g.parse('static/images/truck.svg', format = 'rdfa')
+  else:
+    g.parse('static/images/' + p_filename, format = 'rdfa')  
 
   results = []  
   for s, p, o in g:

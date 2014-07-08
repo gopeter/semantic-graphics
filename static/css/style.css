@@ -109,15 +109,12 @@ table th {
   text-align: left;
 }
 
-table td {
-  transition: 100ms;
-}
-
 table td.active {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
-#results1 {
+#results1,
+#results2 {
   margin: 10px 0 0 0;
   display: none;
 }
@@ -133,9 +130,10 @@ table td.active {
 svg * {
   transition: 100ms;
 } 
- 
+
 svg .active {
-  opacity: 0.75;
+  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
 }
 
 /****************************

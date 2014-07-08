@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="MudguardSet" xmlns="http://www.w3.org/2000/svg" xmlns:ex="http://example.com/" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" width="441px" height="335.5px" viewBox="0 0 441 335.5" enable-background="new 0 0 441 335.5" xml:space="preserve" resource="http://semantic-graphics.herokuapp.com/svg/TruckMudguardSet.svg">
-<g id="BezelRight" rel="ex:contains" resource="http://example.com/BezelRight">
+<g id="BezelRight" rel="ex:contains" class="interactive" resource="http://example.com/BezelRight">
 	<g id="LINE_574_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="398.339" y1="142.613" x2="388.639" y2="125.812"/>
@@ -379,7 +379,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="409.587" y1="133.231" x2="409.567" y2="133.243"/>
 	</g>
 </g>
-<g id="BezelLeft" rel="ex:contains" resource="http://example.com/BezelLeft"> 
+<g id="BezelLeft" rel="ex:contains" class="interactive" resource="http://example.com/BezelLeft"> 
 	<g id="LINE_559_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="192.455" y1="239.656" x2="202.154" y2="256.457"/>
@@ -902,7 +902,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="184.871" y1="263.549" x2="184.851" y2="263.561"/>
 	</g>
 </g>
-<g id="MudguardLeft" rel="ex:contains" resource="http://example.com/MudguardLeft">
+<g id="MudguardLeft" rel="ex:contains" class="interactive" resource="http://example.com/MudguardLeft">
 	<g id="ELLIPSE">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -2018,7 +2018,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="99.922" y1="137.126" x2="68.595" y2="155.213"/>
 	</g>
 </g>
-<g id="StorageBoxLeft" rel="ex:contains" resource="http://example.com/StorageBoxLeft">
+<g id="StorageBoxLeft" rel="ex:contains" class="interactive" resource="http://example.com/StorageBoxLeft">
 	<g id="ELLIPSE_85_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -3506,7 +3506,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="155.731" y1="246.266" x2="155.519" y2="246.388"/>
 	</g>
 </g>
-<g id="CladdingLeft" rel="ex:contains" resource="http://example.com/CladdingLeft">
+<g id="CladdingLeft" rel="ex:contains" class="interactive" resource="http://example.com/CladdingLeft">
 	<g id="ELLIPSE_186_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -6344,7 +6344,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="72.964" y1="271.68" x2="72.681" y2="271.844"/>
 	</g>
 </g>
-<g id="FixtureLeft" rel="ex:contains" resource="http://example.com/FixtureLeft">
+<g id="FixtureLeft" rel="ex:contains" class="interactive" resource="http://example.com/FixtureLeft">
 	<g id="POLYLINE_28_">
 		
 			<polyline fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
@@ -7934,7 +7934,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="69.218" y1="116.576" x2="62.037" y2="111.852"/>
 	</g>
 </g>
-<g id="FixtureRight" rel="ex:contains" resource="http://example.com/FixtureRight">
+<g id="FixtureRight" rel="ex:contains" class="interactive" resource="http://example.com/FixtureRight">
 	<g id="ELLIPSE_461_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -9507,7 +9507,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="176.77" y1="53.615" x2="180.879" y2="42.372"/>
 	</g>
 </g>
-<g id="MainStabiliser" rel="ex:contains" resource="http://example.com/MainStabiliser">
+<g id="MainStabiliser" rel="ex:contains" class="interactive" resource="http://example.com/MainStabiliser">
 	<g id="ELLIPSE_367_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -13116,7 +13116,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="388.145" y1="258.006" x2="385.258" y2="256.339"/>
 	</g>
 </g>
-<g id="MudguardRight" rel="ex:contains" resource="http://example.com/MudguardRight">
+<g id="MudguardRight" rel="ex:contains" class="interactive" resource="http://example.com/MudguardRight">
 	<g id="ELLIPSE_507_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -14356,7 +14356,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="236.495" y1="57.699" x2="370.317" y2="134.962"/>
 	</g>
 </g>
-<g id="StorageBoxRight" rel="ex:contains" resource="http://example.com/StorageBoxRight">
+<g id="StorageBoxRight" rel="ex:contains" class="interactive" resource="http://example.com/StorageBoxRight">
 	<g id="ELLIPSE_221_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -15423,7 +15423,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="390.272" y1="87.623" x2="390.272" y2="71.367"/>
 	</g>
 </g>
-<g id="CladdingRight" rel="ex:contains" resource="http://example.com/CladdingRight">
+<g id="CladdingRight" rel="ex:contains" class="interactive" resource="http://example.com/CladdingRight">
 	<g id="ELLIPSE_94_">
 		
 			<path fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
@@ -18197,7 +18197,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="418.415" y1="61.887" x2="418.628" y2="61.764"/>
 	</g>
 </g> 
-<g id="ClampRight" rel="ex:contains" resource="http://example.com/ClampRight">
+<g id="ClampRight" rel="ex:contains" class="interactive" resource="http://example.com/ClampRight">
 	<g id="LINE_2195_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="237.078" y1="156.428" x2="237.502" y2="156.183"/>
@@ -19333,7 +19333,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="233.259" y1="167.859" x2="232.977" y2="168.022"/>
 	</g>
 </g>
-<g id="ClampLeft" rel="ex:contains" resource="http://example.com/ClampLeft">
+<g id="ClampLeft" rel="ex:contains" class="interactive" resource="http://example.com/ClampLeft">
 	<g id="LINE_2253_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="211.494" y1="140.498" x2="211.802" y2="141.448"/>
@@ -20785,7 +20785,7 @@
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="200.279" y1="149.394" x2="200.562" y2="149.558"/>
 	</g>
 </g>
-<g id="StabiliserRight" rel="ex:contains" resource="http://example.com/StabiliserRight">
+<g id="StabiliserRight" rel="ex:contains" class="interactive" resource="http://example.com/StabiliserRight">
 	<g id="LINE_867_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="175.058" y1="12.036" x2="174.808" y2="11.603"/>
@@ -23237,7 +23237,7 @@
 			M122.292,57.8c0.537,0.183,0.884-0.222,0.774-0.906c-0.109-0.683-0.634-1.386-1.171-1.57c-0.39-0.133-0.695,0.043-0.774,0.448"/>
 	</g>
 </g>
-<g id="StabiliserLeft" rel="ex:contains" resource="http://example.com/StabiliserLeft">
+<g id="StabiliserLeft" rel="ex:contains" class="interactive" resource="http://example.com/StabiliserLeft">
 	<g id="LINE_825_">
 		
 			<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="10.177" y1="107.23" x2="10.331" y2="107.141"/>
