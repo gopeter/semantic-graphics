@@ -4,6 +4,8 @@ Little web app that let users interact with interactive SVG. Semantic data is in
 
 [Live demo on Heroku](http://semantic-graphics.herokuapp.com) (runs with 1 dyno so first start could take a while)
 
+**No support for touch devices!**
+
 **No database, no unnecessary or redundant files, just one .svg.**
 
 ## Installation

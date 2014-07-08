@@ -72,6 +72,10 @@ section h3 {
   margin: 0 0 10px 0;
 }
 
+#step2 {
+  display: none;
+}
+
 /****************************
  * Content
  ***************************/
@@ -91,6 +95,47 @@ button:hover {
 
 button:focus, button:active {
   outline: none;
+}
+
+table {
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
+table td {
+  transition: 100ms;
+}
+
+table td.active {
+  background-color: #eee;
+}
+
+#results1 {
+  margin: 10px 0 0 0;
+  display: none;
+}
+
+#results1 p {
+  margin: 0 0 10px 0;
+}
+
+/****************************
+ * SVG
+ ***************************/
+ 
+svg * {
+  transition: 100ms;
+} 
+ 
+svg .active {
+  opacity: 0.75;
 }
 
 /****************************

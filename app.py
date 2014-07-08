@@ -13,10 +13,17 @@ app = Flask(__name__)
 # Query SVG
 ################################################################################
 
-@app.route('/query', methods = ['POST'])
+@app.route('/query1', methods = ['GET'])
 def queryData():
 
-  return 'foo'
+  g = Graph()
+  g.parse('static/images/truck.svg', format = 'rdfa')
+
+  results = []  
+  for s, p, o in g:
+    results.append([s, p, o])
+  
+  return json.dumps(results)
   
 ################################################################################
 # Serve SVG files
@@ -39,4 +46,4 @@ def index():
 ################################################################################
  
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=True)

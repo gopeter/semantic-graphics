@@ -7,7 +7,7 @@
   <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">    
   <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
   <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/hammer.min.js') }}"></script>    
+  <script src="{{ url_for('static', filename='js/lunar.min.js') }}"></script>      
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </head>
 <body>
@@ -29,8 +29,25 @@
     </header>
 
     <section id="step1">
-      <h3>Step 1: Parse SVG File</h3>
+      <h3>Step 1: Parse first SVG file</h3>
       <div id="graphic1"></div>
+      <button id="parse1">Parse SVG</button>
+      <div id="results1">
+        <h4>Results</h4>
+        <p>Move your mouse over subjects, objects (&darr;) or graphic elements (&uarr;).<br /><strong>The tires of the trailer contain more informations. Click it!</strong></p>
+        <table cellpadding="0" cellspacing="0"></table>
+      </div>
+    </section>
+    
+    <section id="step2">
+      <h3>Step 1: Parse second SVG file</h3>
+      <div id="graphic2"></div>
+      <button id="parse2">Parse SVG</button>
+      <div id="results2">
+        <h4>Results</h4>        
+        <table cellpadding="0" cellspacing="0"></table>        
+      </div>
+      
     </section>
     
   </div>
