@@ -54,16 +54,22 @@ SG.prototype = {
     var f = s.filter([Snap.filter.brightness(0.8), Snap.filter.contrast(0.8)]);      
     
     if (type == 'add') {
+
+      console.log('add', $el);
     
       e.attr({
-        filter: f
+        filter: f,
+        strokeWidth: 3        
       });         
       
     } else if (type == 'remove') {
     
+      console.log('remove', $el);
+      
       e.attr({
-        filter: ''
-      });    
+        filter: '',
+        strokeWidth: ''
+      });          
       
     }
   },
