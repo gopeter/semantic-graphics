@@ -195,7 +195,7 @@ SG.prototype = {
         $resultTable = $('#results' + i).find('table');
         $resultTable.empty();
         
-        $resultTable.append('<tr><th>Subject</th><th>Predicat</th><th>Object</th></tr>');
+        $resultTable.append('<tr><th>Subject</th><th>Predicate</th><th>Object</th></tr>');
         
         $.each(res, function(i, obj) {
           var s = obj[0];
