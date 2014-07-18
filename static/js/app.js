@@ -189,8 +189,15 @@ SG.prototype = {
       data: {
         filename: f
       },
+      beforeSend: function() {
+        $('.spinner').addClass('show');        
+      },
       dataType: 'json',
       success: function(res) {
+      
+        setTimeout(function() {
+          $('.spinner').removeClass('show');
+        }, 500);      
         
         $resultTable = $('#results' + i).find('table');
         $resultTable.empty();
@@ -218,11 +225,18 @@ SG.prototype = {
     var filename = this.getFilenameFromURL(context);
     this.filename = filename;
 
+    $('.spinner').addClass('show');    
+
     // load second SVG into DOM
     $.get('svg/' + filename, null, function(data) {
       var el = $('svg', data);
       var svg = document.adoptNode(el[0]);
       $('#graphic2').html(svg);
+      
+      setTimeout(function() {
+        $('.spinner').removeClass('show');
+      }, 500);            
+      
     }, 'xml');
     
     $('#step2').show();
